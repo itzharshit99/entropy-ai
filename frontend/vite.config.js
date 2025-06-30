@@ -8,4 +8,7 @@ export default defineConfig({
     host: true, // 👈 this allows external devices (like ngrok) to access
     port: 5173, // optional: explicitly mention if you want fixed port
   },
+  build:{
+    outDir:'dist',
+  }
 })
